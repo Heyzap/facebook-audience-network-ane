@@ -27,17 +27,10 @@
     </target>
     
     <target name="build" depends="init" description="Build project">
-<!--         <exec executable="find" outputproperty="android.jar">
-            <arg value="${env.ANDROID_HOME} -name android.jar" />
-        </exec>
-
-        <echo message="${android.jar}" /> -->
-
         <property name="classpath" value="${libs.dir}/FlashRuntimeExtensions.jar;"/>
-
         <mkdir dir="${bin.dir}"/>
         <echo>Copying files to build folder...</echo>
-            <javac srcdir="${src.dir}" destdir="${build.dir}" target="1.6" source="1.6" includeantruntime="false" classpath="${classpath}" />
+        <javac srcdir="${src.dir}" destdir="${build.dir}" target="1.6" source="1.6" includeantruntime="false" classpath="${classpath}" />
     </target>
     
     <target name="package" depends="build" description="Package jar">
