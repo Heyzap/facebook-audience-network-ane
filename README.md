@@ -4,6 +4,7 @@ A thin wrapper around the Facebook Audience Network Android and iOS SDK for use 
 
 The latest release can be found in [Releases](https://github.com/Heyzap/facebook-audience-network-ane/releases).
 
+Pull requests and issues are welcome.
 
 #### Adding to your project
 
