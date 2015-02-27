@@ -1,2 +1,31 @@
-# facebook-audience-network-ane
-A thin wrapper around the Facebook Audience Network Android and iOS SDK
+# Facebook Audience Network ANE
+
+A thin wrapper around the Facebook Audience Network Android and iOS SDK for use on Heyzap's mediation.
+
+
+#### Adding to your project
+
+* Add the `FacebookAudienceNetwork.ane` to your Adobe Flex Builder or Adobe Flash project.
+* If on Android, follow the [integration instructions on Heyzap](https://developers.heyzap.com/docs/android_sdk_setup_and_requirements#facebook-audience-network) or add the following permissions and activities to your Android Manifest in your application descriptor:
+ 
+`<uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>`
+
+`<activity android:name="com.facebook.ads.InterstitialAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" />`
+
+* If not done automatically, add the follow extension context to your application descriptor:
+```
+<extensions>
+    <extensionID>com.heyzap.sdk.extensions.facebook.audiencenetwork</extensionID>
+</extensions>
+```
+
+#### Building
+
+Build Requirements:
+* Mac OS X
+* XCode
+
+From the root of the folder, run `./build.sh`.
+
+After build completes, the native extension will be in `bin/FacebookAudienceNetwork.ane`.
