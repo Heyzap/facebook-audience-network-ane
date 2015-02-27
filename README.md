@@ -8,7 +8,7 @@ The latest release can be found in [Releases](https://github.com/Heyzap/facebook
 #### Adding to your project
 
 * Add the `FacebookAudienceNetwork.ane` to your Adobe Flex Builder or Adobe Flash project.
-* If on Android, follow the [integration instructions on Heyzap](https://developers.heyzap.com/docs/android_sdk_setup_and_requirements#facebook-audience-network) or add the following permissions and activities to your Android Manifest in your application descriptor:
+* If on Android, follow the [integration instructions on Heyzap](https://developers.heyzap.com/docs/ane_setup_and_requirements#unityads#facebook-audience-network) or add the following permissions and activities to your Android Manifest in your application descriptor:
  
 `<uses-permission android:name="android.permission.INTERNET"/>
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>`
