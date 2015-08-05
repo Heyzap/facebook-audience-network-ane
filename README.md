@@ -34,11 +34,14 @@ Pull requests and issues are welcome.
 
 #### Building
 
-Build Requirements:
+##### Requirements:
 - Mac OS X
 - XCode
 - Ant
+- [AIR SDK](http://www.adobe.com/devnet/air/air-sdk-download.html)
 
-From the root of the folder, run `ant`.
+##### Building:
+- Add the path to your AIR SDK in `build.config` (under `air.sdk`)
+- From the root of the folder, run `ant`.
 
 After build completes, the native extension will be in `bin/FacebookAudienceNetwork.ane`.
