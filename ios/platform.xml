@@ -1,0 +1,21 @@
+<platform xmlns="http://ns.adobe.com/air/extension/4.0">
+    <sdkVersion>7.0</sdkVersion>
+    
+    <linkerOptions>
+        <option>-framework AdSupport</option>
+        <option>-framework AVFoundation</option>
+        <option>-framework CoreGraphics</option>
+        <option>-framework CoreImage</option>
+        <option>-framework CoreMedia</option>
+        <option>-framework CoreMotion</option>
+        <option>-framework Foundation</option>
+        <option>-framework MobileCoreServices</option>
+        <option>-framework Security</option>
+        <option>-framework StoreKit</option>
+        <option>-framework UIKit</option>
+    </linkerOptions>
+
+    <packagedDependencies>
+        <packagedDependency>FBAudienceNetwork.framework</packagedDependency>
+    </packagedDependencies>
+</platform>
