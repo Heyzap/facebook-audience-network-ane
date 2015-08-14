@@ -44,7 +44,7 @@
 		861D2AD91A92B290001F1C22 /* FacebookANETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookANETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861D2ADF1A92B290001F1C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A269E3B1B727E6A00541518 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		8A269E3C1B727E6A00541518 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		8AAF891C1B7E9B0E001D78D4 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +71,7 @@
 		861D2AC51A92B290001F1C22 = {
 			isa = PBXGroup;
 			children = (
+				8AAF891C1B7E9B0E001D78D4 /* FlashRuntimeExtensions.h */,
 				8A269E3A1B727E6A00541518 /* Vendor */,
 				861D2AD01A92B290001F1C22 /* FacebookANE */,
 				861D2ADD1A92B290001F1C22 /* FacebookANETests */,
@@ -116,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				8A269E3B1B727E6A00541518 /* FBAudienceNetwork.framework */,
-				8A269E3C1B727E6A00541518 /* FlashRuntimeExtensions.h */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
