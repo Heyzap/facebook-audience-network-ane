@@ -44,3 +44,6 @@ xcuserdata
 *.moved-aside
 DerivedData
 *.xcuserstate
+
+build.config
+

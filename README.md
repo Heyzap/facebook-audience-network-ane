@@ -52,6 +52,7 @@ After making the necessary modifications, build the new ANE by following the [bu
 - [AIR SDK](http://www.adobe.com/devnet/air/air-sdk-download.html)
 
 ##### Building:
+- Make a `build.config` by copying `build.config.dist` (your local config file)
 - Add the path to your AIR SDK in `build.config` (under `air.sdk`)
 - From the root of the repository, run `ant`.
 
