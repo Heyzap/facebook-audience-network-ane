@@ -7,8 +7,8 @@ The latest release can be found in [Releases](https://github.com/Heyzap/facebook
 Pull requests and issues are welcome.
 
 #### Facebook Audience Network Versions
-- iOS: 4.3.0
-- Android: 4.3.0
+- iOS: 4.22.0
+- Android: 4.20.0
 
 #### Adding to your project
 

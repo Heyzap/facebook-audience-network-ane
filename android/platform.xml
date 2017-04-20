@@ -2,7 +2,7 @@
 
     <packagedDependencies>
         <packagedDependency>AudienceNetwork.jar</packagedDependency>
-        <packagedDependency>android-support-v4.jar</packagedDependency>
+        <!-- <packagedDependency>android-support-v4.jar</packagedDependency> -->
     </packagedDependencies>
     
 </platform>
