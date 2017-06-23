@@ -7,8 +7,8 @@ The latest release can be found in [Releases](https://github.com/Heyzap/facebook
 Pull requests and issues are welcome.
 
 #### Facebook Audience Network Versions
-- iOS: 4.22.0
-- Android: 4.20.0
+- iOS: 4.23.0
+- Android: 4.22.0
 
 #### Adding to your project
 
@@ -38,7 +38,7 @@ Pull requests and issues are welcome.
 - Update `ios/platform.xml` with any new iOS frameworks that the newer version might be dependent on. Built-in iOS SDK frameworks can be added within the _linkerOptions_ tag. Custom iOS frameworks can be added under the _packagedDependencies_ tag and their respective `.framework` directories can be added to `ios/Vendor`. Drag and drop these `.framework` directories into the `FacebookANE.xcodeproj` project in XCode under the _Vendor_ group.
 
 **For Android**:
-- Replace `AudienceNetwork.jar` in `android/libs` with a newer version.
+- Replace `AudienceNetwork.jar` in `android/libs` with a newer version. Get the newer version from an `.aar` by unzipping it and renaming `classes.jar` to `AudienceNetwork.jar`.
 - Update `android/platform.xml` with any new android libraries that the newer version might be dependent on. Android libraries can be added under the _packagedDependencies_ tag. The actual `.jar` files can be added to the `andorid/libs` directory.
 
 After making the necessary modifications, build the new ANE by following the [building](#building) instructions below.
@@ -47,7 +47,7 @@ After making the necessary modifications, build the new ANE by following the [bu
 
 ##### Requirements:
 - Mac OS X
-- XCode
+- XCode **8** (as of FAN 4.23.0, 7 is not supported)
 - [Apache Ant](http://ant.apache.org/)
 - [AIR SDK](http://www.adobe.com/devnet/air/air-sdk-download.html)
 
