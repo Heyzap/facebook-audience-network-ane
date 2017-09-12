@@ -21,7 +21,7 @@ Pull requests and issues are welcome.
 	```
 
 	```xml
-	<activity android:name="com.facebook.ads.InterstitialAdActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
+  <activity android:name="com.facebook.ads.AudienceNetworkActivity" android:configChanges="keyboardHidden|orientation|screenSize" />
 	```
 
 - If not done automatically, add the follow extension context to your application descriptor:
